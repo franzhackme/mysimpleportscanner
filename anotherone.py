@@ -36,7 +36,7 @@ def main():
             print("Invalid range")
             if start_port > stop_port:
                 print("The final port should be greater than the initial port.")
-    return
+        return
 
     scanner(ip, start_port, stop_port)
 
